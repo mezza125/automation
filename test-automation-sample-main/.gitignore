@@ -1,0 +1,11 @@
+// ignore npm defaults
+node_modules
+package-lock.json
+yarn.lock
+.DS_Store
+
+// ignore local files
+.env
+videos/
+coverage/
+html-report/
