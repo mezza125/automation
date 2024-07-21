@@ -3,7 +3,7 @@ module.exports = {
   testEnvironment: 'node',
   testMatch: ['**/*.test.ts'],  
   reporters: [
-    "default", // Keep the default reporter for console output
+    "default", 
     ["jest-html-reporters", {
       publicPath: "./html-report",
       filename: "report.html",

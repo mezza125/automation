@@ -55,7 +55,7 @@ describe("Wikipedia profile test", () => {
 
       expect(title?.toLowerCase()).toBe(pokemon.name.toLowerCase());
 
-      // no usar el Id dado que varia en cada pagina
+      // no usar el Id dado que varia en cada pagina 
       const conceptAndDesignH2 = await page
         .locator("h2 > span")
         .first()

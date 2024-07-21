@@ -22,7 +22,7 @@ describe("Pokeapi", () => {
       const endTime = Date.now();
 
       expect(response.status).toBe(200);
-      // assert the response time is less than 10 seconds
+      // assert respuesta menor a 10 segundos
       expect(endTime - starTime).toBeLessThan(10000);
 
       expect(response.body).toHaveProperty("id", pokemon.id);
